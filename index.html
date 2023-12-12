@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd Num</title>
+</head>
+
+<body>
+    <script>
+        // Q1
+        //    <!-- Find palindrome -->
+
+        const user_input = prompt("Enter Any Alphabet I Will Let You Know If It Is A Palindrome Or Not :)");
+
+        const checking_palindrome = user_input.split('').reverse().join('');
+
+
+        if (checking_palindrome === user_input) {
+            document.write(`${user_input} is a palindrome!`);
+        } else {
+            document.write(`${user_input} is not a palindrome.`);
+        }
+
+
+        // Q2
+
+        // Even or odd num
+
+        var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+        var evenNumber = [];
+        var oddNumber = [];
+
+        for (i = 0; i <= numberArray.length; i++) {
+            if (numberArray[i] % 2 === 0) {
+                evenNumber.push(numberArray[i]);
+            }
+            else (oddNumber.push(numberArray[i]))
+
+        }
+        document.write(`<p>Even Numbers: ${evenNumber.join(' ,   ')}</p>`);
+        document.write("<p>Odd Numbers: " + oddNumber.join(' , ') + "</p>");
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
