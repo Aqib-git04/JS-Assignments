@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +7,105 @@
 </head>
 
 <body>
+
     <script>
         // Q1
         //    <!-- Find palindrome -->
 
-        const user_input = prompt("Enter Any Alphabet I Will Let You Know If It Is A Palindrome Or Not :)");
+        // const user_input = prompt("Enter Any Alphabet I Will Let You Know If It Is A Palindrome Or Not :)");
 
-        const checking_palindrome = user_input.split('').reverse().join('');
+        // const checking_palindrome = user_input.split('').reverse().join('');
 
 
-        if (checking_palindrome === user_input) {
-            document.write(`${user_input} is a palindrome!`);
-        } else {
-            document.write(`${user_input} is not a palindrome.`);
-        }
+        // if (checking_palindrome === user_input) {
+        //     document.write(`${user_input} is a palindrome!`);
+        // } else {
+        //     document.write(`${user_input} is not a palindrome.`);
+        // }
 
 
         // Q2
 
         // Even or odd num
 
-        var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-        var evenNumber = [];
-        var oddNumber = [];
+        // var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+        // var evenNumber = [];
+        // var oddNumber = [];
 
-        for (i = 0; i <= numberArray.length; i++) {
-            if (numberArray[i] % 2 === 0) {
-                evenNumber.push(numberArray[i]);
-            }
-            else (oddNumber.push(numberArray[i]))
+        // for (i = 0; i <= numberArray.length; i++) {
+        //     if (numberArray[i] % 2 === 0) {
+        //         evenNumber.push(numberArray[i]);
+        //     }
+        //     else (oddNumber.push(numberArray[i]))
 
-        }
-        document.write(`<p>Even Numbers: ${evenNumber.join(' ,   ')}</p>`);
-        document.write("<p>Odd Numbers: " + oddNumber.join(' , ') + "</p>");
-
-
+        // }
+        // document.write(`<p>Even Numbers: ${evenNumber.join(' ,   ')}</p>`);
+        // document.write("<p>Odd Numbers: " + oddNumber.join(' , ') + "</p>");
 
 
+        //   chapter 17-20 questions
+        // Q1
+        // let arr = [[], [], []];
 
+        // Q2
+        // let arr2 = [[0, 1, 2, 3],
+        // [1, 0, 1, 2],
+        // [2, 1, 0, 1]
+        // ];
+
+        //Q3
+        // let arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // for (i = 0; i < arr3.length; i++) {
+        //     document.write(arr3[i])
+        // }
+
+        // Q4
+        // let userInput = +prompt("Entr a table num");
+        // let tableRange = prompt("How many times you want to print it?");
+        // for (let i = 1; i < tableRange; i++) {
+        //     document.write(userInput + " " + "x" + " " + + i + " " + " = " + " " + + userInput * i + "<br/>");
+        // }
+        
+        //Q5
+        // let fruitsArray=["Apple","Banana","Orange","Grapes","Gava"];
+        // for(let i=0;i<fruitsArray.length;i++){
+        //     document.write(fruitsArray)[i];
+        // }
+
+
+        // chapter 21-25
+           // index of method
+
+        //    var name=["Aqib rehan"];
+        //   var check=name.indexOf("n")
+        //   console.log(check)
+
+        //   chartAt method
+
+        // var name = ["syed aqib"]
+        // var checkName = name.charAt(8);
+        // console.log(checkName)
+
+        // Replace method
+
+        //    var text="Syed Aqib Rehan";
+        //    var changeText=text.replace("Aqib","aqiba");
+        //    console.log(changeText);
+
+        // Math.round
+
+        // let a=Math.round(2.5);
+        // console.log(a);
+
+        // Math.ceil (it will round to the highest integer)
+
+        //   var ceilMethod=Math.ceil(1.9);
+        //   console.log(ceilMethod);  //output 2
+
+        //   Math.floor (it will round to the lowest integer)
+
+        // var floorMethod=Math.floor(1.9);
+        // console.log(floorMethod);   //output 1
 
     </script>
 </body>
